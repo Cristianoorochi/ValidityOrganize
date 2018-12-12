@@ -1,0 +1,145 @@
+* {margin: 0; padding: 0;}
+body{
+    background-image: url("fundo-cinza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    width: 70px;
+    margin: 10px 2%;;
+}
+header {
+    background-color: gray;
+    
+}
+h1{
+    display: inline;
+    margin-left: 10%;
+    position:absolute;
+    top:5%;
+    font-family: serif;
+    font-weight: bolder;
+    color: #fff;
+}
+.usuario{
+    position: absolute;
+    top:10%;
+    right:3%;
+    color:#fff;
+    font-size:20px;
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logologin{
+      width: 170px;
+      margin-top: 10%;
+}
+.container form {
+    margin-top: 10px;
+}
+.container label{
+    color: #008855;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container input[type=submit]{
+    color: #009966;
+    background-color: #aaa;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+.container input[type=submit]:hover {
+    background-color: #ccc;
+}
+.container input[type=text]{
+    padding: 5px;
+    margin: 5px auto;
+    width: 600px;
+}
+.container input[type=password]{
+    padding: 5px;
+    margin: 5px auto;
+    width: 600px;
+}
+
+
+.menu{
+    height: 800px;
+    width: 200px;
+    background-color: #666;
+    border-top: #ccc 2px solid;
+    padding-top: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.menu li{
+    padding: 10px 10px;
+}
+.menu a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #00bb99;
+}
+
+.menu small {
+    color: #aaa;
+}
+h2{
+   color: blueviolet;
+   margin: 15px;
+   font-family: arial;
+   
+}
+
+.box {
+   margin: 15px;
+   
+}
+
+.produtos input{
+    padding: 8px;
+    margin: 15px 0 15px 1%;
+   width: 40%;
+   font-size: 14px;
+}
+
+.produtos input[type=submit]{
+   background-color: lightseagreen;
+   width: 150px;
+   border-radius: 20px;
+   color: #fff;
+}
+
+.produtos input[type=submit]:hover {
+    background-color: aqua;
+}
+label {
+
+    display: inline-block;
+    width: 90px;
+}
+
+.status {
+    color: #008855;
+    font-size: 20px;
+}
+
+.sobre {
+    text-align: center;
+    font-family: arial;
+    padding: 15px;
+    font-size: 16px;
+    color: #444;
+}
+.sobre h3 {
+    margin: 10px 0;
+    color: #111;
+}
